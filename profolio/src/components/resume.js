@@ -3,11 +3,12 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import './styles.scss'
-import {SiRedux, SiMongodb, SiJavascript, SiPostgresql,SiPostman, SiLinkedin, SiGithub, SiHeroku} from 'react-icons/si'
-import {GrReactjs} from 'react-icons/gr'
+import { SiLinkedin, SiGithub} from 'react-icons/si'
+// SiRedux, SiMongodb, SiJavascript, SiPostgresql,SiPostman,, SiHeroku
+// import {GrReactjs} from 'react-icons/gr'
 import {FiPhone} from 'react-icons/fi'
 import {AiOutlineMail, AiOutlineHome} from 'react-icons/ai'
-import {FaCss3, FaHtml5, FaJava, FaNodeJs} from 'react-icons/fa'
+// import {FaCss3, FaHtml5, FaJava, FaNodeJs} from 'react-icons/fa'
 import { BsFillDiamondFill } from "react-icons/bs";
 
 class Resume extends Component {
@@ -57,24 +58,16 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
           
           <h2>Skills</h2>
-              <p><h4><BsFillDiamondFill/> Test Tools:</h4> <span></span></p>
-              <p><h4><BsFillDiamondFill/>Development Methodology:</h4>  <span></span></p>
-              <p><h4><BsFillDiamondFill/> Databases:</h4>  <span></span> </p>
-              <p><h4><BsFillDiamondFill/> Operating System: </h4><span></span></p>
-              <p><h4><BsFillDiamondFill/> Programming/Scripting langauge: </h4><span></span>  </p>
-              <p><h4><BsFillDiamondFill/> Cloud:</h4><span></span></p>
-              <p><h4><BsFillDiamondFill/> Browers:</h4><span></span></p>
-               <FaJava size={40} style={{marginRight: "10px"}} className="skill"/>
-               <SiRedux  size={40} style={{marginRight: "10px"}} className="skill"/>
-               <GrReactjs size={40} style={{marginRight: "10px"}} className="skill"/>
-               <FaCss3 size={40} style={{marginRight: "10px"}} className="skill"/>
-               <FaHtml5 size={40} style={{marginRight: "10px"}} className="skill"/>
-               <SiMongodb size={40} style={{marginRight: "10px"}} className="skill"/>
-               <SiJavascript size={40} style={{marginRight: "10px"}} className="skill"/>
-               <SiPostgresql size={40} style={{marginRight: "10px"}} className="skill"/>
-               <FaNodeJs size={40} style={{marginRight: "10px"}} className="skill"/>
-               <SiPostman size={40} style={{marginRight: "10px"}} className="skill"/>
-               <SiHeroku size={40} className="skill" />
+              <p><h4><BsFillDiamondFill/> Test Tools:</h4> <span>Eclipse, VS Code, Visual Studio, Bugzilla, JIRA, Selenium, WebDriver(JAva),TestNg, Log4J, JUnit, Maven, Jekins, Posman, GIT</span></p>
+              <p><h4><BsFillDiamondFill/>Development Methodology:</h4>  <span>Waterfall, AGILE-SCrum</span></p>
+              <p><h4><BsFillDiamondFill/> Databases:</h4> <span>MongoDb, PostgrsSQL, Mongo Atlas and MySQL</span> </p>
+              <p><h4><BsFillDiamondFill/> Operating System: </h4><span>Windows, Linux</span></p>
+              <p><h4><BsFillDiamondFill/> Programming/Scripting langauge: </h4><span>Java, JavaScript, Express, Node, React, Redux, TyprScript, Bootstrap, HTML5, CSS</span>  </p>
+              <p><h4><BsFillDiamondFill/> Cloud:</h4><span>Azure, Heroku</span></p>
+              <p><h4><BsFillDiamondFill/> Browers:</h4><span>Google Chrome, Firefox, Internet Explorer</span></p>
+              
+              <h5>OTHER SKILLS</h5>
+              
           <hr style={{borderTop: '3px solid #e22947'}} />
           
          
